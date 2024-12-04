@@ -13,7 +13,31 @@ InSAR-RiskLSTM is a Python-based framework designed for railway deformation risk
 ---
 
 ## Directory Structure
-InSAR-RiskLSTM/ ├── README.md # Project documentation ├── requirements.txt # Project dependencies ├── setup.py # Installation script ├── .gitignore # Ignored files and folders ├── src/ # Source code │ ├── data/ # Data handling modules │ │ ├── preprocessing.py # Preprocessing functions │ │ ├── data_loader.py # DataLoader implementation │ ├── models/ # Model definitions │ │ ├── spatial_attention.py # Spatial attention module │ │ ├── lstm_predictor.py # LSTM-based temporal model │ │ ├── feature_fusion.py # Feature fusion module │ ├── experiments/ # Training and evaluation scripts │ │ ├── train.py # Training pipeline │ │ ├── evaluate.py # Model evaluation │ │ ├── ablation_study.py # Ablation study experiments │ ├── utils/ # Utility functions │ ├── visualization.py # Visualization tools │ ├── metrics.py # Evaluation metrics ├── tests/ # Unit tests │ ├── test_data_loader.py # Tests for data loading │ ├── test_models.py # Tests for model components │ ├── test_integration.py # End-to-end pipeline tests
+InSAR-RiskLSTM/
+├── README.md
+├── requirements.txt
+├── src/
+│   ├── data/
+│   │   ├── preprocessing.py
+│   │   ├── data_loader.py
+│   ├── models/
+│   │   ├── spatial_attention.py
+│   │   ├── lstm_predictor.py
+│   │   ├── feature_fusion.py
+│   ├── experiments/
+│   │   ├── train.py
+│   │   ├── evaluate.py
+│   │   ├── ablation_study.py
+│   ├── utils/
+│       ├── visualization.py
+│       ├── metrics.py
+├── tests/
+│   ├── test_data_loader.py
+│   ├── test_models.py
+│   ├── test_integration.py
+├── LICENSE
+├── .gitignore
+└── setup.py
 
 ## Installation
 
