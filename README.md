@@ -1,4 +1,4 @@
-# InSAR-RiskLSTM
+# InSAR-RiskLSTM:Enhancing Railway Deformation Risk Prediction with Image-Based Spatial Attention and Temporal LSTM Models
 
 InSAR-RiskLSTM is a Python-based framework designed for railway deformation risk prediction using Interferometric Synthetic Aperture Radar (InSAR) data. The framework integrates **spatial attention mechanisms**, **LSTM networks**, and a **feature fusion module** to effectively model complex spatio-temporal dependencies.
 
@@ -15,30 +15,31 @@ InSAR-RiskLSTM is a Python-based framework designed for railway deformation risk
 ## Directory Structure
 
 InSAR-RiskLSTM/
-├── README.md
-├── requirements.txt
-├── src/
-│   ├── data/
-│   │   ├── preprocessing.py
-│   │   ├── data_loader.py
-│   ├── models/
-│   │   ├── spatial_attention.py
-│   │   ├── lstm_predictor.py
-│   │   ├── feature_fusion.py
-│   ├── experiments/
-│   │   ├── train.py
-│   │   ├── evaluate.py
-│   │   ├── ablation_study.py
-│   ├── utils/
-│       ├── visualization.py
-│       ├── metrics.py
-├── tests/
-│   ├── test_data_loader.py
-│   ├── test_models.py
-│   ├── test_integration.py
-├── LICENSE
-├── .gitignore
-└── setup.py
+- README.md
+- requirements.txt
+- src/
+  - data/
+    - preprocessing.py
+    - data_loader.py
+  - models/
+    - spatial_attention.py
+    - lstm_predictor.py
+    - feature_fusion.py
+  - experiments/
+    - train.py
+    - evaluate.py
+    - ablation_study.py
+  - utils/
+    - visualization.py
+    - metrics.py
+- tests/
+  - test_data_loader.py
+  - test_models.py
+  - test_integration.py
+- LICENSE
+- .gitignore
+- setup.py
+
 
 ## Installation
 
