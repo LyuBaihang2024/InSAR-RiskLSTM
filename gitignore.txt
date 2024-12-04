@@ -1,0 +1,53 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and debug files
+*.log
+*.out
+*.err
+
+# Python packages
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# IDE configurations
+.vscode/
+.idea/
+*.iml
+
+# Generated files
+*.h5
+*.pth
+*.ckpt
+*.onnx
+*.npy
+*.npz
+
+# Test results
+coverage/
+*.cover
+
+# Documentation
+docs/_build/
+
+# Custom additions for datasets
+data/raw/
+data/processed/
