@@ -13,6 +13,7 @@ InSAR-RiskLSTM is a Python-based framework designed for railway deformation risk
 ---
 
 ## Directory Structure
+
 InSAR-RiskLSTM/
 ├── README.md
 ├── requirements.txt
@@ -90,9 +91,6 @@ Reference: Xu et al., International Journal of Applied Earth Observation and Geo
 Description: Provides large-scale patch datasets for feature matching in SAR and optical data.
 These datasets provide a diverse range of synthetic aperture radar (SAR) imagery, enabling robust evaluation of the proposed framework.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 
 ## Contribution
@@ -137,20 +135,8 @@ Synthetic Data Generation:
 Generate augmented InSAR datasets using simulation tools to handle data scarcity and improve model robustness.
 Real-World Validation:
 
-Test the framework on large-scale, real-world railway monitoring datasets to validate its applicability in practical scenarios.
-Optimization and Scalability
-Hardware Optimization:
+## License
 
-Implement GPU-accelerated training pipelines for faster experimentation.
-Explore model pruning and quantization techniques to deploy the framework on edge devices.
-Dynamic Attention Mechanisms:
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-Introduce attention mechanisms that dynamically adjust to varying data quality and spatial resolution.
-Applications
-Cross-Domain Applications:
-
-Adapt the framework for applications in maritime monitoring, urban planning, and disaster management using SAR data.
-Extrapolation and Generalization:
-
-Investigate the model’s ability to generalize across different terrains, climatic conditions, and sensor types.
 
